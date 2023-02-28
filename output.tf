@@ -5,3 +5,7 @@ output "name" {
 output "resource_group_name" {
   value = azurerm_network_watcher.this.resource_group_name
 }
+
+output "resource_group_name" {
+  value = azurerm_network_watcher.this.id
+}

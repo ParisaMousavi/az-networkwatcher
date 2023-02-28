@@ -10,3 +10,8 @@ variable "location" {
 variable "resource_group_name" {
   type = string
 }
+
+variable "additional_tags" {
+  default = {}
+  type    = map(string)
+}
